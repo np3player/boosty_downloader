@@ -2,14 +2,14 @@
 # Auth params, get it from you browser net tools
 # Keep this params in secret!
 auth:
-  cookie: ''
-  authorization: ''
+  cookie: '_clientId=6ed5feaf-2263-46aa-bfdb-aadcda7b7c84; tmr_lvid=2605e1035c6d4b781fc355b7c7b0dd7a; tmr_lvidTS=1724854020974; _ga=GA1.1.216285578.1724854022; _ym_uid=1724854022743263811; _ym_d=1724854022; _fbp=fb.1.1724854022177.329217018713620859; _tt_enable_cookie=1; _gcl_au=1.1.235579898.1733929557; _ttp=QbmVQ-WsuVNxPCHzk6zuUlh3rDp.tt.1; _ym_isad=1; _ym_visorc=b; newUser=0; auth=%7B%22accessToken%22%3A%2218d6e85a8acf6837491735a9a2a5508a753d61c893ae67bff0a8e67bac4e1600%22%2C%22refreshToken%22%3A%2249b515322aba665cf91ec59a4398b259f63ec647ec76fc13f2c4cb1ef447653b%22%2C%22expiresAt%22%3A%221735575946362%22%2C%22isEmptyUser%22%3A%220%22%2C%22redirectAppId%22%3A%22web%22%7D; last_acc={%22name%22:%22DVNXK%20NPXIII%22%2C%22avatarUrl%22:%22https://images.boosty.to/user/1055812/avatar?change_time=1597897223%22%2C%22provider%22:%22google%22%2C%22phone%22:null}; _ga_PM9D5LFL6M=GS1.1.1734971136.7.1.1734973060.0.0.0'
+  authorization: 'Bearer 18d6e85a8acf6837491735a9a2a5508a753d61c893ae67bff0a8e67bac4e1600'
 
 # Files params
 file:
   # Folders for your creator accounts will be created in this folder
   # Synchronization with the boosty will be performed inside the creator account folders
-  sync_dir: 'C:\boosty_dumps'
+  sync_dir: 'H:\boosty_dumps'
   # Download chunk size (bytes), don't change this setting unless you are sure
   download_chunk_size: 153600
   # Max time for one file downloading (seconds), default - 2 hours.
@@ -20,11 +20,11 @@ file:
 # Content params
 content:
   # Available types: post, media
-  storage_type: post
+  storage_type: media
   # Available list items: videos, photos, audios
   collect:
     - videos
-    - photos
+#   - photos
 #   - audios
 
 # Logging params
